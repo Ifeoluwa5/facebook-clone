@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    margin: -23px 0 0 0;
+}
+
+header > a > img {
+    width: 150px;
+} 
+#good {
+    height: 65px;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0px 15px 0px 0px;
+}
+.smarter {
+    padding-left: 20px;;
+}
+nav {
+    position: absolute;
+    width: 100vw;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -20px 1px 0px 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+a > img {
+    width: 30px;
+    display: flex;
+    justify-content: space-between; 
+}
+.cut {
+    border-bottom: 2px solid black;
+}
+.data-mode {
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.data-mode > p:not(:first-of-type) {
+    border: 1px solid white;
+    padding-top: 8px;
+    margin: 8px;
+}
+
+.round {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 50%;    
+}
+#publish {
+    position: relative;
+    top: -38px;
+    left: 80px;
+}
+input {
+    height: 30px;
+}
+#posts {
+    border-radius: 8em;
+}
+
+#push {
+    position: relative;
+    top: -40px;
+    left: 90px;
+}
+
+h3 {
+    text-align: center;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+    position: 100%;
+    left: 0;
+    top: 10;
+}
+
+#videos > div > p {
+    font-weight: bold;
+    padding: 0px 0px 10px 50px;
+}
+
+#videos {
+    margin-top: -40px;
+}
+
+.picture {
+    height: 30px;
+    width: 30px;
+    background: gray;
+    border-radius: 50%;
+    position: relative;
+    top: 42px;
+}
+
+
+footer {
+    position: absolute;
+    width: 100vw;
+    background: blue;
+    color:white;
+}
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    align-items: center;
+    list-style: none;
+}
+footer > p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
